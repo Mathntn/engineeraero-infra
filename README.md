@@ -6,7 +6,7 @@
 
 ## Contexte
 
-EngineerAero stockait l'ensemble de ses plans 3D et dossiers d'appels d'offres sur un NAS en RAID 0, utilisé à 75 % de capacité — sans aucune tolérance aux pannes. La mission : concevoir une infrastructure complète, souveraine et conforme NIS2, capable de protéger ce patrimoine critique.
+EngineerAero stockait l'ensemble de ses plans 3D et dossiers d'appels d'offres sur un NAS en RAID 0, utilisé à 75 % de capacité, sans aucune tolérance aux pannes. La mission : concevoir une infrastructure complète, souveraine et conforme NIS2, capable de protéger ce patrimoine critique.
 
 ---
 
@@ -33,8 +33,8 @@ EngineerAero stockait l'ensemble de ses plans 3D et dossiers d'appels d'offres s
 
 ## Indicateurs clés
 
-| RPO | RTO local | RTO sinistre | Budget CapEx | Conformité NIS2 |
-|---|---|---|---|---|
+| RPO | Budget CapEx | Conformité NIS2 |
+|---|--|---|
 | 4 heures | < 30 min | < 8 heures | 36 810 € HT | 9 / 11 critères |
 
 ---
