@@ -8,7 +8,7 @@
 
 EngineerAero stockait l'ensemble de ses plans 3D et dossiers d'appels d'offres sur un NAS en RAID 0, utilisé à 75 % de capacité, sans aucune tolérance aux pannes. La mission : concevoir une infrastructure complète, souveraine et conforme NIS2, capable de protéger ce patrimoine critique.
 
----
+--- 
 
 ## Schéma réseau
 
