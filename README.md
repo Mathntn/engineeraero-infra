@@ -35,7 +35,7 @@ EngineerAero stockait l'ensemble de ses plans 3D et dossiers d'appels d'offres s
 
 | RPO | Budget CapEx | Conformité NIS2 |
 |---|--|---|
-| 4 heures | < 30 min | < 8 heures | 36 810 € HT | 9 / 11 critères |
+| 4 heures | < 30 min |  | 36 810 € HT | 9 / 11 critères |
 
 ---
 
