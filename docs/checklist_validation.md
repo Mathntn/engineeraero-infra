@@ -1,6 +1,6 @@
 # Checklist de validation finale — EngineerAero
 
-16 points à valider avant réception de l'infrastructure.
+points à valider avant réception de l'infrastructure.
 
 ## Stockage & Réseau
 
@@ -30,12 +30,11 @@
 
 - [ ] Snapshots NAS toutes les 4h — 3 cycles consécutifs sans erreur
 - [ ] Backup OVH S3 — 3 sauvegardes vérifiées avec intégrité SHA-256
-- [ ] **Restauration testée depuis OVH S3 — RTO mesuré et documenté**
+- [ ] **Restauration testée depuis OVH S3**
 - [ ] Object Lock WORM actif — test de suppression rejeté par OVH
 
 ## Services
 
-- [ ] MX + SPF + DKIM + DMARC vérifiés sur mxtoolbox.com
 - [ ] MFA activé sur 100 % des comptes Exchange
 - [ ] Site web HTTPS actif — testé depuis réseau externe (4G)
 - [ ] GLPI opérationnel — inventaire automatisé + tickets fonctionnels

@@ -1,6 +1,6 @@
 # EngineerAero — Infrastructure Souveraineté & Résilience
 
-**Prestataire :** Stargate Système | **Projet :** TSSR 2025 | **Client :** EngineerAero (PME aéronautique, 20 ingénieurs)
+**Prestataire :** Stargate Système | **Projet :** TSSR 2025 | **Client :** EngineerAero (PME aéronautique, 20 employés)
 
 ---
 
@@ -18,14 +18,14 @@ EngineerAero stockait l'ensemble de ses plans 3D et dossiers d'appels d'offres s
 
 ## Stack technique
 
-| Couche | Matériel / Logiciel | Détail |
+|  | Matériel / Logiciel | Détail |
 |---|---|---|
 | Stockage | Synology DS3622xs+ | RAID 6 — 48 To utiles, cache NVMe, 2x 10 GbE |
 | Virtualisation | 2x 2CRSi OC-2100 + Proxmox VE | Cluster HA — basculement automatique en 60-120s |
-| Réseau | 2x Alcatel-Lucent OS6560 | Virtual Chassis — 10 GbE, VLANs 10/20/30/40/51/60/99 |
+| Réseau | 2x Alcatel-Lucent OS6560 | 10 GbE, VLANs 10/20/30/40/51/60/99 |
 | Sécurité | 2x Stormshield SN220 | Cluster HA — certifié ANSSI, IPS/IDS, VPN, DMZ |
 | Sauvegarde | Hyper Backup + OVHcloud S3 | Règle 3-2-1-1-0 — Object Lock WORM anti-ransomware |
-| Annuaire | Windows Server 2022 + AD | 20 comptes, GPO, DNS, DHCP |
+| DC | Windows Server 2022 + AD | 20 comptes, GPO, DNS, DHCP |
 | ITSM | GLPI + FusionInventory | Ticketing ITIL, inventaire automatisé |
 | Messagerie | OVHcloud Hosted Exchange | Souverain FR, MFA, SPF/DKIM/DMARC |
 
@@ -35,7 +35,7 @@ EngineerAero stockait l'ensemble de ses plans 3D et dossiers d'appels d'offres s
 
 | RPO | Budget CapEx | Conformité NIS2 |
 |---|--|---|
-| 4 heures | < 30 min | < 8 heures | 36 810 € HT | 9 / 11 critères |
+| 4 heures | 36 810 € HT | 9 / 11 critères |
 
 ---
 
