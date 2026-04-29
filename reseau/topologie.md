@@ -24,16 +24,6 @@
 | VM Serveur de fichiers | Ingénierie | 10.10.10.11 |
 | VM GLPI | Administration | 10.10.20.10 |
 
-## Règles inter-VLAN (Stormshield)
-
-| Source | Destination | Ports autorisés | Commentaire |
-|---|---|---|---|
-| VLAN 10 | NAS | 445, 2049 | SMB + NFS accès fichiers |
-| VLAN 10 | AD | 389, 88, 3268, 49152-65535 | LDAP, Kerberos, RPC |
-| VLAN 20 | AD | 389, 88 | Auth admin |
-| VLAN 30 | Tout LAN | DENY | Isolation invités |
-| Tout | Internet | 443, 25, 587, 993 | HTTPS, SMTP, IMAPS |
-| Management | Tout | Restreint admin | Accès IPMI et consoles |
 
 ## Liaisons physiques 10 GbE
 
